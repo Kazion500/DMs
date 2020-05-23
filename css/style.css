@@ -3,10 +3,14 @@
 * {
     list-style-type: none !important;
     text-decoration: none;
-    font-family: 'Galdeano';
+    font-family: 'OpenSans';
+    font-weight:;
 }
 body {
   background-color:#f3f3f3;
+}
+.margin {
+    margin-right: 300px;
 }
 #background-navbar{
     background-color: #0B6075;
@@ -49,11 +53,12 @@ ul, .nav-link {
     margin: 100px;
 }
 .banner-img {
-    background: url("../assets/img/11.jpg") no-repeat;
+    background: url("../assets/img/sites.jpg") no-repeat;
+    background-position: center;
     background-size: 100% 100%;
-    height:auto;
+    height:600px;
     margin-top: 15px;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
 }
 .btn-cont {
     width: 89px;
