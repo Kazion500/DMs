@@ -1,0 +1,101 @@
+@import url(fonts.css);
+
+:root {
+	--boxcolor: #044FFE;
+	--btnfontcolor: #D48639;
+	--border: 1px solid red;;
+}
+* {
+	font-family: Roboto medium;
+	box-sizing: border-box!important;
+}
+.margin {
+	margin-right: 270px;
+}
+header {
+	background: url("../assets/img/1.jpg") no-repeat;
+	background-size: 100% 170%;
+	background-position: center;
+	height: 100vh;
+	color: white;
+	position: relative;
+}
+.navbar-expand-lg {
+	background: transparent;
+}
+.navbar-expand-lg .logo {
+	font-family: Roboto medium;
+	font-size: 30px;
+}
+.nav-link,.git {
+	font-family: Roboto medium;
+}
+.btn-warning {
+	background-color: var(--btnfontcolor) !important;
+	border: none;
+}
+.wrapper-left {
+	background-color: rgba(4, 79, 254,.7);
+	width: 55%;
+	height: 89.6%;
+	position: relative;
+}
+.pms {
+	font-size: 60px;
+	letter-spacing: 7px;
+	right: -15.7rem;
+	top: 3rem;
+	position: absolute;
+}
+.h-text {
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 1.6px;
+	line-height: 27px;
+	width: 39%;
+	color: #f3f3f3;
+	right: 0rem;
+	top: 15rem;
+	position: absolute;
+}
+.o-header {
+	opacity: 0.6;
+	font-size: 60px;
+	letter-spacing: 15px;
+	line-height: 80px;
+	left: 5rem;
+	bottom: 2rem;
+	position: absolute;
+}
+
+.wrapper-right {
+	display: flex;
+	justify-content: center;
+	font-family: Roboto;
+	font-size: 13px;
+	width:20%;
+	position: absolute;
+	bottom: 3rem;
+	right: 0;
+	border-radius: 3px;
+	display: flex;
+	padding: 20px 5px 10px;
+	margin-right: 4rem;
+	background-color: rgba(243, 243, 243,.2)
+
+}
+.wrapper-right input{
+	font-family: Roboto;
+	font-size: 13px;
+}
+.wrapper-right p,a{
+	font-family: Roboto;
+	text-decoration: none !important;
+}
+.orange-text {
+	color: var(--btnfontcolor);
+}
+.solu {
+	letter-spacing: 5.2px;
+}
