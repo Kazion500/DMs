@@ -86,8 +86,13 @@
 }
 @font-face {
     src : url("../fontawesome/fonts/Roboto-Light.ttf");
+    font-family: 'Roboto-Light';
+}
+@font-face {
+    src :url("../fontawesome/fonts/Roboto-Black.ttf");
     font-family: 'Roboto';
 }
+
 @font-face {
     src : url("../fontawesome/fonts/RubikMonoOne-Regular.ttf");
     font-family: 'RubikMonoOne';

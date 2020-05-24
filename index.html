@@ -22,11 +22,10 @@
 </head>
 <body>
      <!------------------------NAVBAR------------------------------------------>
-    <nav class="navbar navbar-expand-lg navbar-light" id="background-navbar">
-      <div class="container mx-auto w-75">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="background-navbar">
+      <div class="container mx-auto">
         <a class="navbar-brand" href="#">
-          <!-- <img src="assets/icons/book.png" class="d-inline-block logo-img" alt="logo"> -->
-          <span id="logo-text" class="d-inline-block px-2 pb-1 h1 align-middle text-center my-2">PRO-MARGINAL<br> SOLUTIONS</span>
+          <span id="logo-text" class="d-inline-block p-1 h1 align-middle text-center my-1">PRO-MARGINAL<br>SOLUTIONS</span>
         </a>
 
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarbtn" aria-controls="navbarbtn" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,135 +35,221 @@
            <div class="mr-auto"></div>
            <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link pr-4" href="index.php">Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                 </li>
                
                 <li class="nav-item">
-                    <a class="nav-link active pr-4" href="#">What we do</a>
+                    <a class="nav-link" href="#wwd">What we do</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active pr-4" href="#">Who we are</a>
+                    <a class="nav-link" href="#wwa">Who we are</a>
                 </li>
            </ul>
            <span>
-             <a href="" class="btn btn-warning">GET IN TOUCH</a>
+             <a href="#contact" class="btn btn-outline-warning">GET IN TOUCH</a>
            </span>
 
        </div>
 
            
       </div>
-    
-           
+     
     </nav>
     <!------------------------END OF NAVBAR------------------------------------------>
 
-<!-- Header to the site [span: ] -->
-<div class="container-fluid p-0 mx-auto w-75 banner-img">
-        <div class="row">
-            <div class="col-md-6 mx-auto banner-text1">
-             <p class="text-white banner-h-text"> <span class="white-black">PRO-MARGINAL SOLUTIONS</span></p> 
-               <p class="banner-text text-dark">DOES YOUR BUSINESS NEED ATTENTION?</p>
-               <p>We will help you brsing out only the best in your brand</p>
-      
-            </div>
-        </div>
-    </div>
+<!--------------------- Header to the site [span: ] ----------------->
+<div class="container banner-img p-0 mb-3">
+  <div class="banner-img1 p-0">
+  <div class="row">
+      <div class="col-md-6 mx-auto banner-header-text"> 
+         <p class="banner-text">DOES YOUR <br>BUSINESS NEED<br>ATTENTION?</p>
+         <p class="lead">We will help you bring out only the best in your brand
+          <img src="assets/icons/idea1.png" class="mt-n3" width="30" height="30">
+         </p>
+         
+      </div>
+  </div>
+   </div>      
+</div>
 
-<br>
+<!----------------------- WHAT WE CAN DO FOR YOU ------------------>
 
-<div class="jumbotron">
+<div class="jumbotron wwd">
   <div class="container p-0">
-   <h1 class="text-center pt-3 pb-5">WHAT WE CAN DO FOR YOU</h1>
+   <h3 class="text-center pt-2 pb-5" id="wwd">WHAT WE DO</h3>
   
   <div class="row text-center">
 
-    <div class="col-md-3">
-      <img src="assets/img/1.png"  width="100" height="100">
-      <h4 class="py-5">WEB DEVELOPMENT</h4>
+    <div class="col-md-3 coll">
+      <img src="assets/img/1.png"  width="70" height="70">
+      <h5 class="py-5">WEB DEVELOPMENT</h5>
 
     </div>
-     <div class="col-md-3">
-      <img src="assets/img/2.png" width="100" height="100">
-      <h4 class="py-4">SOFTWARE DEVEVLOPMENT</h4>
+     <div class="col-md-3 coll">
+      <img src="assets/img/2.png" width="70" height="70">
+      <h5 class="py-5">SOFTWARE DEVEVLOPMENT</h5>
       
     </div>
-     <div class="col-md-3">
-      <img src="assets/img/3.png"  width="100" height="100">
-      <h4 class="py-5">BUSINESS AUTOMATION</h4>
+     <div class="col-md-3 coll">
+      <img src="assets/img/3.png"  width="70" height="70">
+      <h5 class="py-5">BUSINESS AUTOMATION</h5>
     </div>
 
-     <div class="col-md-3">
-      <img src="assets/img/4.png"  width="100" height="100">
+     <div class="col-md-3 coll">
+      <img src="assets/img/4.png"  width="70" height="70">
     
-      <h4 class="py-5">BUSINESS PLANS</h4>
+      <h5 class="py-5">BUSINESS PLANS</h5>
     </div>
       
     </div>
+    </div>
+</div>
+
+<!-------------------- Portifolio ------------------------------------>
+<div class="container mx-auto our-team">
+  <h3 class="text-center">PORTIFOLIO</h3>
+  <div class="row text-center ">
+
+  </div>
+</div>
+
+  <!------------------------------ WHO ARE WE?------------------------>
+<div class="container">
+  <div class="row mb-3">
+    <div class="col-md-6">
+      <h3 class="text-center pt-3 pb-3" id="wwa">WHO ARE WE?</h3>
+        <p class="text-justify" >We are a hub of technolgical solutions that brings out the best in your brand, company and profile, our dedication to service delivery will lead your business to profitability and a different feel to the outside world.Meet our team of dedicated expers to serve you in the services needed
+        </p>
+    </div>
+
+    <div class="col-md-6 skills">
+      <div class="skills">
+        <h3 class="text-center pt-3 pb-2">ABILITIES</h3>
+      </div>
+      <p>Experience</p>
+        <div class="progress">
+          <div class="progress-bar bg-secondary" role="progressbar" style="width: 86%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <p>Efficiency</p>
+        <div class="progress">
+          <div class="progress-bar bg-secondary" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <p>Affordability</p>
+        <div class="progress">
+          <div class="progress-bar bg-secondary" role="progressbar" style="width:95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <p>Computer</p>
+        <div class="progress">
+          <div class="progress-bar bg-secondary" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
     </div>
   </div>
-                        <!--w-->
+</div>
 
+<!-------------------------Our Team ---------------------------------->
+<div class="container mx-auto our-team">
+  <h3 class="text-center">OUR TEAM</h3>
+  <div class="row text-center ">
 
-
-<div class="jumbotron">
-
-  <h1 class="text-center pt-3 pb-5">WHO ARE WE?</h1>
-  <p align="center">We are a hub of technolgical solutions that brings out the best in your brand, company and profile, our dedication to service delivery will lead your business
-  to profitability and a different feel to the outside world.<br>
-Meet our team of dedicated expers to serve you in the services needed</p>
-  
+  </div>
 </div>
 
 
+<section>
+
+<!------------------- Contact form -------------------------------->
+  <div class="jumbotron">
+    <div class="container">
+
+    <div class="row">
+      <div class="col-md-6 m-auto">
+        <img src="assets/img/si.jpg" class="w-100" width="50%" height="80%">
+      </div>
+
+      <div class="col-md-6 mx-auto">
+      <p class="signup-heading text-center pb-3 pt-5" id="contact">CONTACT US</p>
+
+      <form class="mx-auto form-wrapper" action="" method="POST">
+        <div class="form-row">
+        <div class="form-group col-md-6 mx-auto ">
+          <label for="Fullname">Fullname</label>
+          <input type="text" class="form-control" name="fullname" placeholder="Fullname">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-6 mx-auto ">
+          <label for="Subject">Subject</label>
+          <input type="text" class="form-control" name="subject" placeholder="Subject">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-6 mx-auto ">
+          <label for="Email">Email</label>
+          <input type="text" class="form-control" name="email" placeholder="Email">
+            </div>
+          </div>
+
+          <div class="form-row">
+        <div class="form-group col-md-6 mx-auto">
+          <label for="Message">Message</label>
+          <textarea class="form-control " name="message" placeholder="Message"></textarea> 
+            </div>
+          </div>
+
+      <div class="btn-cont mx-auto">
+        <button type="submit" id="signup" name="submit-message" class="btn btn-secondary warning btn-cont my-2 p-2">SEND</button>
+      </div>
+        </form>
 
 
+      </div> 
+    </div>
+    
+   </div>   
+  </div>
 
 
+</section>
+<!----------------------- footer ---------------------------------------->
+<footer>
 
-    <footer>
-    <div class="footer-wrapper bg-dark">
+    <div class="footer-wrapper">
       <div class="container w-75 mx-auto">
-        <div class="row text-center text-white">
-            <div class="col-md-3">
-                <h5 class="p-3">CONTACT INFO</h5>
-                  <p class="pb-2">For questions and any clarifications you can<br> reach us on<br><span class="phone-number">+260979609500</span><br> OR<br> <a class="btn btn-outline-info mt-2" href="contact.php"> 
-                   Send us an Email
-                     </a>
+        <div class="row">
+            <div class="col-md-4">
+                <h4 class="">CONTACT US</h4>
+                  <p class="pb-2">For questions and any clarifications you can<br> reach us on<br><span class="phone-number pt-3">+260979609500</span>
                   </p> 
 
+                  <div class="social-media mb-3">
+                    <a href="" title="Facebook" class="pr-2 facebook"><img src="assets/icons/facebook.png" alt=""></a>
+                    <a href="" title="Whatsapp" class="pr-2 whatsapp"><img src="assets/icons/whatsapp.png" alt=""></a>
+                    <a href="" title="Twitter" class="twitter"><img src="assets/icons/twitter.png" alt=""></a>
+                  </div>
             </div>
 
-            <div class="col-md-3">
-                <h5 class="p-3">ABOUT US</h5>
+            <div class="col-md-4 mb-3">
+                <h4 class="">MORE INFO</h4>
                     <a href="">Privacy policy</a><br>
                     <a href="">Our Location</a><br>
                     <a href="">Who we are</a>
                 
             </div>
 
-            <div class="col-md-3">
-                    <h5 class="p-3">NEED HELP?</h5>
-                    <p>Support Customer<br> is avaliable from<br> 08:00am - 17:00pm<br> GMT+2 Central Africa time</p>
+            <div class="col-md-4">
+                    <h4 class="">NEED HELP?</h4>
+                    <p>Support Customer is avaliable from 08:00am - 17:00pm GMT+2 Central Africa time</p>
             </div>
 
-            <div class="col-md-3">
-                <h5 class="p-3">SOCIAL MEDIA</h5>
-                <div class="social-media pb-2">
-                <a href="" title="Facebook"><img src="assets/icons/facebook.png" alt=""></a>
-                <a href="" title="Whatsapp"><img src="assets/icons/whatsapp.png" alt=""></a>
-                <a href="" title="Twitter"><img src="assets/icons/twitter.png" alt=""></a>
-                <a href="" title="Youtube"><img src="assets/icons/youtube.png" alt=""></a>
-                </div>
-                <p>Dont forget to like and <br>subscribe to our youtube channel.<br> We value your support</p>
-            </div>
-        </div>
+            
+              
+        </div>  
      </div>
+      
    </div>
-
 </footer>
-
-
   
 <!--SCRIPT------->
     <script src="bootstrap/jquery.slim.min.js"></script>
