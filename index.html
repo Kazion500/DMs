@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     
     <!---FORNTAWESOME-->
-    <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
-    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <!-- <link rel="stylesheet" href="fontawesome/css/all.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 
     <!---SYTLESHEET-->
     <link rel="stylesheet" href="css/style.css">
@@ -28,8 +29,8 @@
           <span id="logo-text" class="d-inline-block p-1 h1 align-middle text-center my-1">PRO-MARGINAL<br>SOLUTIONS</span>
         </a>
 
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarbtn" aria-controls="navbarbtn" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
+       <button id="navbar-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarbtn" aria-controls="navbarbtn" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon" id="toggler-icon"></span>
        </button>
        <div class="navbar-collapse collapse" id="navbarbtn">
            <div class="mr-auto"></div>
@@ -45,9 +46,9 @@
                     <a class="nav-link" href="#wwa">Who we are</a>
                 </li>
            </ul>
-           <span>
+           <div class="text-center ml-4">
              <a href="#contact" class="btn btn-outline-warning">GET IN TOUCH</a>
-           </span>
+           </div> 
 
        </div>
 
@@ -64,7 +65,7 @@
       <div class="col-md-6 mx-auto banner-header-text"> 
          <p class="banner-text">DOES YOUR <br>BUSINESS NEED<br>ATTENTION?</p>
          <p class="lead">We will help you bring out only the best in your brand
-          <img src="assets/icons/idea1.png" class="mt-n3" width="30" height="30">
+          <img src="assets/icons/idea1.png" class="mt-n2" width="30" height="30">
          </p>
          
       </div>
@@ -75,30 +76,30 @@
 <!----------------------- WHAT WE CAN DO FOR YOU ------------------>
 
 <div class="jumbotron wwd">
-  <div class="container p-0">
+  <div class="container py-4">
    <h3 class="text-center pt-2 pb-5" id="wwd">WHAT WE DO</h3>
   
   <div class="row text-center">
 
-    <div class="col-md-3 coll">
-      <img src="assets/img/1.png"  width="70" height="70">
-      <h5 class="py-5">WEB DEVELOPMENT</h5>
+    <div class="col-md-3">
+      <img src="assets/img/1.png">
+      <h5 class="">WEB DEVELOPMENT</h5>
 
     </div>
-     <div class="col-md-3 coll">
-      <img src="assets/img/2.png" width="70" height="70">
-      <h5 class="py-5">SOFTWARE DEVEVLOPMENT</h5>
+     <div class="col-md-3">
+      <img src="assets/img/2.png">
+      <h5 class="">SOFTWARE DEVEVLOPMENT</h5>
       
     </div>
-     <div class="col-md-3 coll">
-      <img src="assets/img/3.png"  width="70" height="70">
-      <h5 class="py-5">BUSINESS AUTOMATION</h5>
+     <div class="col-md-3">
+      <img src="assets/img/3.png">
+      <h5 class="">BUSINESS AUTOMATION</h5>
     </div>
 
-     <div class="col-md-3 coll">
-      <img src="assets/img/4.png"  width="70" height="70">
+     <div class="col-md-3">
+      <img src="assets/img/4.png">
     
-      <h5 class="py-5">BUSINESS PLANS</h5>
+      <h5 class="">BUSINESS PLANS</h5>
     </div>
       
     </div>
@@ -106,7 +107,7 @@
 </div>
 
 <!-------------------- Portifolio ------------------------------------>
-<div class="container mx-auto our-team">
+<div class="container mx-auto">
   <h3 class="text-center">PORTIFOLIO</h3>
   <div class="row text-center ">
 
@@ -147,11 +148,41 @@
 </div>
 
 <!-------------------------Our Team ---------------------------------->
-<div class="container mx-auto our-team">
-  <h3 class="text-center">OUR TEAM</h3>
-  <div class="row text-center ">
-
-  </div>
+<div class="container-fluid mt-5 our-team">
+  <h3 class="text-center mt-5">OUR TEAM</h3><br>
+  <p class="text-center text-justify">We pride ourselves with building brands <br>
+    by taking your vision for your business, and helping it reach its fullest 
+  potential.</p>
+      <div class="row my-5 d-flex flex-row justify-content-center p-3">
+          <div class="col-md-3 pb-5 col-sm-5">
+              <div class="box">
+                  <img src="assets/img/levy.jpeg" alt="">
+                  <div class="box-content">
+                      <h3 class="title">Levy</h3>
+                      <span class="post">Software Developer</span>
+                      <span class="post text-white">
+                        <a href=""><i class="fa fa-facebook pr-2"></i></a>
+                        <a href=""><i class="fa fa-twitter pr-2"></i></a>
+                        <a href=""><i class="fa fa-linkedin"></i></a>
+                      </span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3 col-sm-5">
+              <div class="box">
+                  <img src="assets/img/patrick.jpg" class="img-fluid " alt="">
+                  <div class="box-content">
+                      <h3 class="title">Patrick</h3>
+                      <span class="post">Web developer</span>
+                      <span class="post">
+                        <a href=""><i class="fa fa-facebook pr-2"></i></a>
+                        <a href=""><i class="fa fa-twitter pr-2"></i></a>
+                        <a href=""><i class="fa fa-linkedin"></i></a>
+                      </span>
+                  </div>
+              </div>
+          </div>
+      </div>
 </div>
 
 
@@ -224,9 +255,9 @@
                   </p> 
 
                   <div class="social-media mb-3">
-                    <a href="" title="Facebook" class="pr-2 facebook"><img src="assets/icons/facebook.png" alt=""></a>
-                    <a href="" title="Whatsapp" class="pr-2 whatsapp"><img src="assets/icons/whatsapp.png" alt=""></a>
-                    <a href="" title="Twitter" class="twitter"><img src="assets/icons/twitter.png" alt=""></a>
+                    <a href="" title="Facebook" class="pr-2 facebook"><img src="assets/icons/facebook.png" class="social-icon" alt=""></a>
+                    <a href="" title="Whatsapp" class="pr-2 whatsapp"><img src="assets/icons/whatsapp.png" class="social-icon" alt=""></a>
+                    <a href="" title="Twitter" class="twitter"><img src="assets/icons/twitter.png" class="social-icon" alt=""></a>
                   </div>
             </div>
 
@@ -240,7 +271,7 @@
 
             <div class="col-md-4">
                     <h4 class="">NEED HELP?</h4>
-                    <p>Support Customer is avaliable from 08:00am - 17:00pm GMT+2 Central Africa time</p>
+                    <p>Support Customer is avaliable from <b>08:00am - 17:00pm</b> GMT+2 Central Africa time</p>
             </div>
 
             
